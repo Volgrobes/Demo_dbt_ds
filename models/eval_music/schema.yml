@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+    - name: EVALUATION
+      description: 'Ceci est un test.'
+      database: EVALUATION
+      schema: PUBLIC
+      tables:
+        - name: ALBUM
+          description: 'Table avec les albums'
+        - name: ARTIST
+          description: 'Table avec les ARTISTs'
+        - name: GENRE
+          description: 'Table avec les GENREs'
+        - name: MEDIATYPE
+          description: 'Table avec les MEDIATYPEs'   
+        - name: PLAYLIST
+          description: 'Table avec les PLAYLISTs'    
+        - name: PLAYLISTTRACK
+          description: 'Table avec les PLAYLISTTRACKs'    
+        - name: TRACK
+          description: 'Table avec les TRACKs'                                       

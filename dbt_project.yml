@@ -34,3 +34,16 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+      +tags: ['example']
+      +enabled: false
+    eval_music:
+      +materialized: table
+      +tags: ['eval']
+    COVID19_Epidemiological_Data:
+      +materialized: table
+      +tags: ['COVID19']
+      +enabled: false
+
+seeds:
+  demo_dbt:
+    +enabled: false
